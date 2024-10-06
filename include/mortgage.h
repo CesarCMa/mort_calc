@@ -7,6 +7,7 @@ struct mortgageData {
     double loanTerm;
     double interestRate;
 
+    double loanPrincipal;
     double downPaymentPercentage;
     double monthlyPayment;
     double totalPayment;

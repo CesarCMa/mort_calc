@@ -49,15 +49,16 @@ int main(int argc, char *argv[]) {
     }
     
     printf("Mortgage data:\n");
-    printf("House price: %.2f\n", p_mortData->housePrice);
-    printf("Down payment: %.2f\n", p_mortData->downPayment);
-    printf("Loan term: %.0f\n", p_mortData->loanTerm);
+    printf("House price: %.2f $\n", p_mortData->housePrice);
+    printf("Down payment: %.2f $\n", p_mortData->downPayment);
+    printf("Loan term: %.f years\n", p_mortData->loanTerm);
     printf("Interest rate: %.2f %% \n", p_mortData->interestRate);
 
+    printf("Loan principal: %.2f $\n", p_mortData->loanPrincipal);
     printf("Down payment percentage: %.2f %%\n", p_mortData->downPaymentPercentage * 100);
-    printf("Monthly payment: %.2f\n", p_mortData->monthlyPayment);
-    printf("Total payment: %.2f\n", p_mortData->totalPayment);
-    printf("Total interest: %.2f\n", p_mortData->totalInterest);
+    printf("Monthly payment: %.2f $\n", p_mortData->monthlyPayment);
+    printf("Total payment: %.2f $\n", p_mortData->totalPayment);
+    printf("Total interest: %.2f $\n", p_mortData->totalInterest);
 
 
 
